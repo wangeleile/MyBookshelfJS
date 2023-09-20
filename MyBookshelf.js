@@ -1,7 +1,7 @@
   d3.csv('goodreads_library_export.csv')
   .then(function(data) {
     console.log(data[3]);
-      // data is now whole data set
+      // data is now whole  data set
       // draw chart in here!
       function tabulate(data, columns) {
         var table = d3.select("body").append("table")
